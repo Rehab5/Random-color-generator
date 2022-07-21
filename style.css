@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container {
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* border: solid black 2px; */
+    border-radius: 50%;
+}
